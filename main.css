@@ -1,0 +1,132 @@
+/*
+    Author: Maipa Ly
+    Date: 12/5/25
+*/
+header {
+  text-align: center;
+  background-color: #9fbec2;
+  border-top: 1em double black;
+  border-bottom: 1em double black;
+  border-left: 1em double black;
+  border-right: 1em double black;
+  border-radius: 3em;
+  padding-bottom: 1.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+header img {
+  width: 300px;
+  padding-bottom: 1em;
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  color: bisque;
+  font-size: 50px;
+  letter-spacing: 0.4em;
+  text-align: center;
+  font-weight: normal;
+}
+h2 {
+  color: #525454;
+  font-size: 40px;
+  text-decoration: overline underline;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  background-color: #edebe8;
+  color: #525454;
+  height: 100%;
+  padding: 0;
+}
+a:visited {
+  color: rgb(36, 34, 34);
+}
+a:link {
+  color: #bd6d19;
+}
+a:hover {
+  color: white;
+  text-shadow: 0.1em 0.1em 0.1em;
+}
+nav a {
+  text-decoration: none;
+  font-size: medium;
+  border-bottom: 0.1em solid black;
+  border-top: 0.1em solid black;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  margin: 0.5em;
+}
+@media screen and (max-width: 640px) {
+  body {
+    font-family:
+      "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  a:link {
+    color: rgb(107, 128, 107);
+    font-size: x-large;
+    border: none;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
+  }
+  main {
+    font-size: large;
+    font-weight: bold;
+  }
+  h2 {
+    color: #bd6d19;
+  }
+  a:hover {
+    color: black;
+  }
+}
+footer {
+  display: flex;
+  border: 0.5em double black;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9fbec2;
+  margin-top: auto;
+}
+footer p {
+  margin: 0;
+  font-size: large;
+  font-weight: bolder;
+  border: 0.1em solid black;
+  border-radius: 0.5em;
+  padding: 0.3em;
+  box-shadow: 0 0.1em 0.1em 0.1em;
+}
+footer address {
+  margin: 0;
+  font-size: large;
+  font-weight: bolder;
+  box-shadow: 0 0.1em 0.1em 0.1em;
+  border: 0.1em solid black;
+  border-radius: 0.5em;
+  padding: 0.3em;
+}
+footer a:visited {
+  color: #bd6d19;
+}
+footer a:hover {
+  color: whitesmoke;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  text-align: center;
+}
+#petOfMonth {
+  text-decoration: overline underline;
+}

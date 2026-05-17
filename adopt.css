@@ -1,0 +1,87 @@
+/*
+    Author: Maipa Ly
+    Date: 12/5/25
+*/
+form {
+    border: .2em solid rgb(115, 112, 112);
+    border-radius: 2em;
+    width: 550px;
+    text-align: left;
+    margin-bottom: 3em;
+    padding: 1em;
+    margin: 2em auto;
+
+}
+fieldset img {
+    width: 150px;
+    display: block;
+    border: .1em solid black;
+}
+label {
+    font-size: 1em;
+    margin: .2em;
+}
+input {
+    margin-top: .5em;
+}
+fieldset {
+    width: 500px;
+    padding: 1em;
+    background-color: whitesmoke;
+    margin-top: .5em;
+}
+legend {
+    font-weight: bold;
+    
+}
+#adopt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#adopt img {
+    display: block;
+    width: 100px;
+}
+#adopt label {
+    font-weight: bold;
+    
+}
+textarea {
+    height: 10em;
+    width: 500px;
+}
+#buttons {
+    text-align: center;
+}
+#buttons input {
+    border-radius: .5em;
+    border: .2em solid black;
+    background-color: aliceblue;
+}
+.myKids {
+    text-align: center;
+    margin-right: 1em;
+}
+section p {
+    font-size: 120%;
+  text-decoration: underline;
+  text-align: center;
+}
+h2 {
+    border: .1em solid black;
+    border-radius: 50em;
+    margin: 1px auto;
+}
+#buttons input[type="submit"]:hover {
+    color: rgb(132, 172, 210);
+    background-color: #676767;
+}
+#buttons input[type="reset"]:hover {
+    color: rgb(132, 172, 210);
+    background-color: #676767;
+}
+.adoption {
+    margin-top: 1em;
+    text-decoration: none;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+    Author: Maipa Ly
+    Date: 12/5/25
+-->
+<html lang="en">
+
+<head>
+    <title>Adoption Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheets/main.css">
+    <link rel="stylesheet" href="styleSheets/adopt.css">
+</head>
+
+<body>
+
+    <header>
+       
+        <h1>Adopt a Furry Friend</h1> 
+        <img src="images/cutiee.png" alt="cuties">
+        <nav>
+            <a href="index.html">Home</a> &bull; <a href="adoptAFriend.html">Adopt a Pal</a> &bull; 
+            <a href="questions.html">Questions & Comments</a> &bull; <a href="furyFriends.html">Adoptable Friends</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="adoption">Adoption Form</h2>
+            <p>So you're ready to open your hearts and home to a new friend? Fill out the adoption form below, once your application has been reviewed someone will contact you via e-mail or telephone.</p>
+            <form action="http://itins3.madisoncollege.edu/echo.php" name="adoptionform" method="post">   
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required> 
+                <br><br>
+
+                <label for="phoneNumber">Telephone Number:</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" required>
+                <select name="phoneNumber" id="number">
+                    <option value="Home">Home</option>
+                    <option value="Cell">Cell</option>
+                </select>
+                <br><br>    
+
+                <fieldset>   
+                <legend>Personal Information</legend>
+                <label for="company">Company you work for:</label>
+                <input type="text" id="company" name="company" required>
+                <br><br>
+
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position">
+                <br><br>
+
+                <label for="hoursWork">How many Hours do you work in a week?</label>
+                <input type="text" id="hoursWork" name="hoursWork" required>
+                </fieldset>
+
+                <fieldset>
+                <legend>Do you rent or own your home?</legend>
+                
+                <input type="radio" id="rent" name="rentOrOwn" value="rent">
+                <label for="rent">Rent</label>
+              
+                <input type="radio" id="own" name="rentOrOwn" value="own">  
+                <label for="own">Own</label>
+                <br><br>
+                </fieldset>
+
+                <fieldset>
+                <legend>If you rent. Are you able to have animals where you are living at?</legend>
+             
+                <input type="radio" id="no" name="allowedOrNot" value="no">     
+                <label for="no">No</label>
+
+                <input type="radio" id="yes" name="allowedOrNot" value="yes">
+                <label for="yes">Yes</label>
+                <br><br> 
+
+                <label for="landlordName">If yes, please provide Landlord's Name:</label>
+                <input type="text" name="landlordName" id="landlordName">
+
+                <label for="landlordNumber">Landlord's Number:</label>
+                <input type="text" name="landlordNumber" id="landlordNumber">
+                </fieldset>
+                <br><br>
+                
+                <fieldset id="adopt">                   
+                    <legend>Available for Adoption</legend>
+                    <div class="myKids">  
+                        <input type="checkbox" id="leo" name="leo" value="leo">
+                        <label for="leo">Leo</label><br>
+                        <img src="images/leo2.jpg" alt="Leo" id="leoL">
+                        <br><br>
+                    </div>
+                    <div class="myKids">
+                        <input type="checkbox" id="lanto" name="lanto" value="lanto">
+                        <label for="lanto">Lanto</label><br>
+                        <img src="images/lanto2.jpg" alt="lanto" id="lantoL">
+                        <br><br>
+                    </div>
+                    <div class="myKids">
+                        <input type="checkbox" id="luna" name="luna" value="luna">
+                        <label for="luna">Luna</label>
+                        <img src="images/luna2.jpg" alt="Luna" id="lunaL">
+                    </div>
+                </fieldset>
+
+                <p>Anything else you want to tell us?</p>
+                <textarea name="moreInfo" id="moreInfo"></textarea>
+
+                <div id="buttons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear Form">
+                </div>            
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="questions.html">Contact Us</a></p>
+        <address>Developed by: <a href="mailto:mmly@madisoncollege.edu">mmly@madisoncollege.edu</a></address>
+    </footer>
+
+</body>
+
+</html>

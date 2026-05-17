@@ -1,0 +1,47 @@
+/*
+   Author: Maipa Ly
+    Date: 12/5/25
+*/
+#lilo {
+    width: 300px;
+    border: .2em solid black;
+    border-radius: 5em;
+}
+#cilantro {
+    width: 300px;
+    border: .2em solid black;
+    border-radius: 5em;
+}
+#nunu {
+    width: 300px;
+    border: .2em solid black;
+    border-radius: 5em;
+}
+main {
+    border: .2em solid black;
+    border-radius: 2em;
+    max-width: 1200px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 2em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+#title {
+    font-size: 300%;
+    text-decoration: overline underline;
+}
+#pups {
+    font-style: italic;
+    border-top: .1em solid black;
+}
+main p {
+    margin: 5em;
+    font-size: 120%;
+}
+h3 {
+    border-top: .1em solid black;
+    font-size: 3em;
+    font-style: italic;
+}

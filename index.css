@@ -1,0 +1,101 @@
+/*
+    Author: Maipa Ly
+    Date: 12/5/25
+*/
+#lanto,
+#luna,
+#leo {
+  width: 11em;
+  border: 0.2em solid black;
+  border-radius: 1em;
+  margin: 0.5em;
+}
+#pets {
+  border: 0.3em dashed #61825c;
+  border-radius: 3em;
+  box-shadow: 0 0.5em 0.5em 0.5em grey;
+  background-color: #dbe0d8;
+  max-width: 500px;
+  margin-left: 1em;
+  margin-top: 2em;
+  display: inline-block;
+  vertical-align: top;
+}
+#vetsForPets {
+  border: 0.3em dashed #61825c;
+  border-radius: 2em;
+  box-shadow: 0 0.5em 0.5em 0.5em grey;
+  max-width: 1200px;
+  background-color: #dbe0d8;
+  padding: 2em;
+  margin: 2em auto 4em auto;
+  font-size: 135%;
+}
+td {
+  padding: 0.5em;
+  border-bottom: 0.1em solid black;
+  padding-left: 5em;
+}
+#news {
+  float: right;
+  border: 0.3em dashed #61825c;
+  border-radius: 2em;
+  box-shadow: 0 0.5em 0.5em 0.5em grey;
+  margin-top: 0;
+  display: block;
+  padding-bottom: 2em;
+  font-size: x-large;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 1000px;
+  max-width: 100%;
+}
+#ourPurpose {
+  margin-bottom: 4em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 150%;
+  padding-top: 0.5em;
+  text-decoration: underline;
+  border-bottom: 0.2em solid black;
+}
+.title {
+  border: 0.1em solid #4c6648;
+  border-radius: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+  background-color: white;
+}
+main {
+  max-width: 1600px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+@media screen and (max-width: 640px) {
+  #news {
+    float: none;
+    margin-top: 2em;
+    width: auto;
+    max-width: 100%;
+    font-size: large;
+  }
+
+  #vetsForPets {
+    margin: 2em auto 4em auto;
+    padding: 1em;
+    width: auto;
+    max-width: 100%;
+  }
+
+  #ourPurpose {
+    width: 90%;
+  }
+
+  main {
+    width: auto;
+    padding: 0 1em;
+  }
+}
